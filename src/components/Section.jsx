@@ -22,9 +22,9 @@ const Section = () => {
           {/* Left Image */}
           <div className="w-full md:w-1/2">
             <img
-              src="./public/images/3.jpg"
+              src="./images/11.jpg"
               alt="Blood Donation"
-              className="w-full rounded-lg shadow-lg"
+              className="sm:w-[80%] w-[100%] rounded-lg shadow-lg"
             />
           </div>
 

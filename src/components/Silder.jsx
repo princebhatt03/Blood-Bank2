@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const images = [
-  '../public/images/1.png',
-  '../public/images/2.png',
-  '../public/images/1.png',
-  '../public/images/2.png',
-  '../public/images/1.png',
-  '../public/images/2.png',
-  '../public/images/1.png',
-  '../public/images/2.png',
+  '../images/1.png',
+  '../images/2.png',
+  '../images/1.png',
+  '../images/2.png',
+  '../images/1.png',
+  '../images/2.png',
+  '../images/1.png',
+  '../images/2.png',
 ];
 
 const Slider = () => {
