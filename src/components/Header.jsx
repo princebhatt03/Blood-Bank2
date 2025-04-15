@@ -45,7 +45,7 @@ const Header = () => {
 
               <li className="relative group">
                 <a
-                  href="#donate"
+                  href="/donar"
                   className="px-3 py-3 rounded-md transition-all duration-300 ease-in-out hover:bg-[#F9E4BC] hover:text-black">
                   Want to Donate Blood
                 </a>
@@ -60,7 +60,7 @@ const Header = () => {
 
               <li className="relative group">
                 <a
-                  href="#login"
+                  href="/adminLogin"
                   className="px-3 py-3 rounded-md transition-all duration-300 ease-in-out hover:bg-[#F9E4BC] hover:text-black">
                   Blood Bank Login
                 </a>

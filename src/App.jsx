@@ -18,6 +18,7 @@ import AdminLogin from './pages/admin/AdminLogin';
 import Donar from './pages/user/Donar';
 import Patient from './pages/user/Patient';
 import About from './pages/home/About';
+import Gallery from './components/Gallery';
 
 function AppWrapper() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function AppWrapper() {
           <Hero />
           <Section />
           <Section2 />
+          <Gallery />
         </>
       )}
 

@@ -1,6 +1,14 @@
 import React from 'react';
 
 const Footer = () => {
+  const images = [
+    './images/g1.jpg',
+    './images/g2.jpg',
+    './images/g3.jpg',
+    './images/g4.jpg',
+    './images/g5.jpeg',
+    './images/g6.jpeg',
+  ];
   return (
     <footer className="bg-[#242729] text-white pt-10 pb-4">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
@@ -96,15 +104,17 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Image scroller section */}
       <div className="w-full overflow-hidden mt-10">
         <div className="animate-marquee flex whitespace-nowrap gap-6">
-          {[...Array(10)].map((_, index) => (
+          {images.concat(images).map((img, index) => (
             <div
               key={index}
-              className="bg-white w-32 h-20 flex items-center justify-center rounded shadow-md shrink-0">
-              {/* Replace with real <img src="..." /> later */}
-              <span className="text-black font-medium">Image {index + 1}</span>
+              className="bg-white w-32 h-20 flex items-center justify-center rounded shadow-md shrink-0 overflow-hidden">
+              <img
+                src={img}
+                alt={`Gallery ${index + 1}`}
+                className="w-full h-full object-cover"
+              />
             </div>
           ))}
         </div>
